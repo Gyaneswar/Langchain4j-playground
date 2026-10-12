@@ -8,7 +8,7 @@
 		<version>4.1.1</version>
 		<relativePath/>
 	</parent>
-	<groupId>com.javatechie</groupId>
+	<groupId>com.gyaneswar</groupId>
 	<artifactId>langchain4j-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name/>

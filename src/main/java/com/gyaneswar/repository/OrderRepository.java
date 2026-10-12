@@ -1,6 +1,6 @@
-package com.javatechie.repository;
+package com.gyaneswar.repository;
 
-import com.javatechie.model.OrderEntity;
+import com.gyaneswar.model.OrderEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

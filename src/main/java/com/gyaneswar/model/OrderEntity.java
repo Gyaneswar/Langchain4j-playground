@@ -1,4 +1,4 @@
-package com.javatechie.model;
+package com.gyaneswar.model;
 
 import jakarta.persistence.*;
 

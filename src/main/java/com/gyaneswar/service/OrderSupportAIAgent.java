@@ -1,4 +1,4 @@
-package com.javatechie.service;
+package com.gyaneswar.service;
 
 import dev.langchain4j.service.SystemMessage;
 import dev.langchain4j.service.spring.AiService;

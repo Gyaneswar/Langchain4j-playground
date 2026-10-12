@@ -1,7 +1,7 @@
-package com.javatechie.controller;
+package com.gyaneswar.controller;
 
-import com.javatechie.service.JavaTechieAIAgent;
-import com.javatechie.service.OrderSupportAIAgent;
+import com.gyaneswar.service.ChatAIAgent;
+import com.gyaneswar.service.OrderSupportAIAgent;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/ai-support")
 public class AiSupportController {
 
-    private JavaTechieAIAgent agent;
+    private ChatAIAgent agent;
 
     private OrderSupportAIAgent orderSupportAIAgent;
 
     public AiSupportController(
-            JavaTechieAIAgent agent,
+            ChatAIAgent agent,
             OrderSupportAIAgent orderSupportAIAgent) {
         this.agent = agent;
         this.orderSupportAIAgent = orderSupportAIAgent;

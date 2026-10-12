@@ -1,7 +1,7 @@
-package com.javatechie.service;
+package com.gyaneswar.service;
 
-import com.javatechie.model.OrderEntity;
-import com.javatechie.repository.OrderRepository;
+import com.gyaneswar.model.OrderEntity;
+import com.gyaneswar.repository.OrderRepository;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -1,7 +1,7 @@
-package com.javatechie.tool;
+package com.gyaneswar.tool;
 
-import com.javatechie.model.OrderEntity;
-import com.javatechie.service.OrderService;
+import com.gyaneswar.model.OrderEntity;
+import com.gyaneswar.service.OrderService;
 import dev.langchain4j.agent.tool.Tool;
 import org.springframework.stereotype.Service;
 
